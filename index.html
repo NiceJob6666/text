@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy個人網頁</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            background-color: #444;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .section-content {
+            margin: 20px 0;
+        }
+        .profile-img {
+            max-width: 150px;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的個人網頁</h1>
+        <nav>
+            <ul>
+                <li><a href="#intro">自我介紹</a></li>
+                <li><a href="#education">學習歷程</a></li>
+                <li><a href="#skills">專長</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro" class="container">
+        <h2>自我介紹</h2>
+        <div class="section-content">
+            <!-- 加入圖片 -->
+            <img src="https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg" alt="Andy的照片" class="profile-img">
+            <p>我是Andy，是一個老師。</p>
+        </div>
+    </section>
+
+    <section id="education" class="container">
+        <h2>學習歷程</h2>
+        <div class="section-content">
+            <p>RUAH</p>
+            <p>此外，我還參加了[培訓/證書]，並獲得了[證書名稱]，這進一步提升了我的專業技能。</p>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>專長證照</h2>
+        <div class="section-content">
+            <ul>
+                <li>[專長 1]</li>
+                <li>[專長 2]</li>
+                <li>[專長 3]</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
